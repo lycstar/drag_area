@@ -1,7 +1,6 @@
 name: drag_area
 description: A new Flutter plugin allows widget response mouse press sigal in linux gtk.
 version: 0.1.0
-author: lycstar
 homepage: https://github.com/lycstar/drag_area
 
 environment:
