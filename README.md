@@ -1,18 +1,20 @@
 # drag_area
 
-A new Flutter plugin allows widget response mouse press sigal in linux gtk
+A new Flutter plugin allows widget response mouse press sigal in linux gtk.
 
-## Getting Started
+## Usage
+To use this plugin, add `drag_area` as a [dependency in your pubspec.yaml file](https://flutter.dev/docs/development/platform-integration/platform-channels).
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+### Example
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+``` dart
+// Import package
+import 'package:drag_area/drag_area.dart';
 
-The plugin project was generated without specifying the `--platforms` flag, no platforms are currently supported.
-To add platforms, run `flutter create -t plugin --platforms <platforms> .` under the same
-directory. You can also find a detailed instruction on how to add platforms in the `pubspec.yaml` at https://flutter.dev/docs/development/packages-and-plugins/developing-packages#plugin-platforms.
+// How to use
+DragArea(
+  child: FlutterLogo(
+  size: 100.0,
+  ),
+),
+```
